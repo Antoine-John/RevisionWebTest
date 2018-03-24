@@ -75,6 +75,11 @@ ul.top_nav{
 	border-left-color: #E64A19;
 }
 
+.define.purple{
+	background-color: #D1C4E9;
+	border-left-color: #512DA8;
+}
+
 /*Comparing two things side by side*/
 
 .left div, .right div{
@@ -140,7 +145,7 @@ ul.top_nav{
 }
 
 p, ul{
-	font-size: 20px;
+	font-size: 24px;
 }
 
 
