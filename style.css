@@ -1,10 +1,15 @@
+/*BODY FORMAT*/
 body{
 	font-family: 'Caveat', cursive;
 	background-color: #F3ECE2;
 }
 
-/*FOR THE NAVIGATION ARROWS*/
+/*HHEADING FORMAT*/
+h1 {
+	text-align: center;
+}
 
+/*FOR THE NAVIGATION ARROWS*/
 .f_nav img{
 	max-height: 60px;
 	width: auto;
@@ -23,11 +28,29 @@ body{
 	cursor: pointer;
 }
 
-/*FOR THE TOPUC NAVIGATION*/
-.top_nav li{
+/*FOR THE TOPIC MENU*/
+.top_nav li a{
 	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 14px 16px;
 }
 
-h1{
-	text-align:center;
+.top_nav li{
+	float:left;
+}
+
+ul.top_nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    border-style:double;
+}
+
+.top_nav li a:hover {
+    background-image: url("./Images/circle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
