@@ -61,7 +61,8 @@ ul.top_nav{
 	border-left-color: #1976D2;
 	border-width: 5px;
 	background-color: #BBDEFB;
-	padding: 5px 0 5px 10px;
+	padding: 5px 5px 5px 10px;
+	text-align: left;
 }
 
 .define.red{
@@ -76,23 +77,17 @@ ul.top_nav{
 
 /*Comparing two things side by side*/
 
-.compare_left, .compare_right{
-	box-sizing: border-box;
-	float:left;
-	width:50%;
-	padding:20px;
-}
-
-.compare_left div, .compare_right div{
+.compare div{
 	border-color: black;
 	border-style: double;
+	padding: 10px;
 }
 
-.compare_left h3, .compare_right h3{
+.compare h3{
 	text-align: center;
 }
 
-.compare_left img, .compare_right img{
+.compare img{
 	height: 300px;
 	max-width: 100%;
 	display: block;
@@ -100,14 +95,13 @@ ul.top_nav{
     margin-right: auto;
 }
 
-.compare p{
-	text-align: center;
-	vertical-align: text-bottom;
-}
-
 .compare{
 	display: table;
 	width: 100%;
+	box-sizing: border-box;
+	float:left;
+	width:50%;
+	padding:20px;
 }
 
 /*Image with text*/
