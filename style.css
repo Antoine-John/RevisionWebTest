@@ -59,8 +59,52 @@ ul.top_nav{
 .define{
 	border-left-style:solid;
 	border-left-color: #1976D2;
+	border-width: 5px;
 	background-color: #BBDEFB;
+	padding: 5px 0 5px 10px;
+}
 
+.define.red{
+	background-color: #FFCDD2;
+	border-left-color: #D32F2F;
+}
+
+.define.orange{
+	background-color: #FFCCBC;
+	border-left-color: #E64A19;
+}
+
+/*Comparing two things side by side*/
+.compare_left, .compare_right{
+	border-color: black;
+	border-style: double;
+	width:40%;
+}
+
+.compare_left h3, .compare_right h3{
+	text-align: center;
+}
+
+.compare_left {
+	float: left;
+	margin-left: 70px;
+}
+
+.compare_right{
+	float: right;
+	margin-right: 70px;
+}
+
+.compare p{
+	text-align: center;
+	vertical-align: text-bottom;
+}
+
+.compare{
+}
+
+p, ul{
+	font-size: 18px;
 }
 
 
