@@ -54,3 +54,13 @@ ul.top_nav{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/*DIFFERENT NOTE STYLE*/
+.define{
+	border-left-style:solid;
+	border-left-color: #1976D2;
+	background-color: #BBDEFB;
+
+}
+
+
