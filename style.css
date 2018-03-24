@@ -75,24 +75,29 @@ ul.top_nav{
 }
 
 /*Comparing two things side by side*/
+
 .compare_left, .compare_right{
+	box-sizing: border-box;
+	float:left;
+	width:50%;
+	padding:20px;
+}
+
+.compare_left div, .compare_right div{
 	border-color: black;
 	border-style: double;
-	width:40%;
 }
 
 .compare_left h3, .compare_right h3{
 	text-align: center;
 }
 
-.compare_left {
-	float: left;
-	margin-left: 70px;
-}
-
-.compare_right{
-	float: right;
-	margin-right: 70px;
+.compare_left img, .compare_right img{
+	height: 300px;
+	max-width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .compare p{
@@ -101,10 +106,41 @@ ul.top_nav{
 }
 
 .compare{
+	display: table;
+	width: 100%;
+}
+
+/*Image with text*/
+
+.img_exp{
+	box-sizing: border-box;
+	position: relative;
+	display:block;
+	float:left;
+	width:100%;
+	padding:20px;
+}
+
+.img_exp div{
+	border-color: black;
+	border-style: double;
+	padding:20px;
+}
+
+.img_exp img{
+	display:block;
+	margin-right: auto;
+	padding: 5px 0 5px 10px;
+	height: 300px;
+	max-width: 400px;
+}
+
+.img_exp p{
+	display:block;
 }
 
 p, ul{
-	font-size: 18px;
+	font-size: 20px;
 }
 
 
