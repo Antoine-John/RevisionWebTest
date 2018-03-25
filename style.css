@@ -4,7 +4,7 @@ body{
 	background-color: #F3ECE2;
 }
 
-/*HHEADING FORMAT*/
+/*HEADING FORMAT*/
 h1 {
 	text-align: center;
 }
@@ -80,7 +80,22 @@ ul.top_nav{
 	border-left-color: #512DA8;
 }
 
-/*Comparing two things side by side*/
+.define.green{
+	background-color: #C8E6C9;
+	border-color: #388E3C;
+}
+
+.define.yellow{
+	background-color: #FFF9C4;
+	border-color: #FBC02D;
+}
+
+.define.grey{
+	background-color: #CFD8DC;
+	border-color: #455A64;
+}
+
+/*Side by side divs*/
 
 .left div, .right div{
 	border-color: black;
@@ -88,8 +103,13 @@ ul.top_nav{
 	padding: 10px;
 }
 
-.compare h3{
+.compare h3, .compare h2{
 	text-align: center;
+	border-top-color, border-bottom-color: black; 
+	border-top-style: double;
+	border-bottom-style: double;
+	width:auto;
+	background-color: #FFC107;
 }
 
 .compare img{
@@ -115,7 +135,7 @@ ul.top_nav{
 	float:right;
 }
 
-/*Image with text*/
+/*Full width div*/
 
 .img_exp{
 	box-sizing: border-box;
