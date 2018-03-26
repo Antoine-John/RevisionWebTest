@@ -1,6 +1,6 @@
 /*BODY FORMAT*/
 body{
-	font-family: 'Caveat', cursive;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	background-color: #F3ECE2;
 }
 
@@ -166,7 +166,7 @@ ul.top_nav{
 }
 
 p, ul, dl{
-	font-size: 1.8vw;
+	font-size: 1.7vw;
 }
 
 /*Resize window*/
