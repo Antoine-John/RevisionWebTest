@@ -165,7 +165,7 @@ ul.top_nav{
 	display:block;
 }
 
-p, ul, dl{
+p, ul, dl, ol{
 	font-size: 1.7vw;
 }
 
@@ -182,12 +182,23 @@ p, ul, dl{
   	}
 
   	.f_nav img, .b_nav img{
-		height: 10vw;
+		height: 9vw;
 		width: auto;
+		padding: 5px;
 	}
 
 	h1 {
 		text-align: center;
 		font-size: 5vw;
+		margin-top: 6vw;
+	}
+
+	.top_nav li{
+		width: 100%;
+		text-align: center;
+	}
+
+	ul.top_nav{
+		margin-top: 5vw;
 	}
 }
