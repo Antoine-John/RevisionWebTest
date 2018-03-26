@@ -51,9 +51,11 @@ ul.top_nav{
 }
 
 .top_nav li a:hover {
-    background-image: url("./Images/circle.png");
+    /*background-image: url("./Images/circle.png");*/
+    background-image: url("./Images/line.gif");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 90% 100%;
+    background-position: center;
 }
 
 /*DIFFERENT NOTE STYLE*/
@@ -173,7 +175,7 @@ p, ul, dl, ol{
 
 @media screen and (max-width:800px) {
 	.left, .right {
-    	width:100%;
+    	max-width:100%;
     	float: left;
   	}
 
