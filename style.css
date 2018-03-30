@@ -11,6 +11,10 @@ h1 {
 }
 
 /*FOR THE NAVIGATION ARROWS*/
+.f_nav, .b_nav{
+	display: block;
+}
+
 .f_nav img{
 	height: 60px;
 	width: auto;
