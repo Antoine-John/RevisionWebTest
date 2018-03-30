@@ -7,5 +7,6 @@ $(document).ready(function(){
 	$('.pageNav').click(function(c){
 		c.preventDefault();
 		$('#dynamic2').load($(this).attr('href'));
+		$('.init').empty();
 	});
 });

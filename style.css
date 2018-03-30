@@ -30,7 +30,7 @@ h1 {
 }
 
 /*FOR THE TOPIC MENU*/
-.top_nav li a{
+.top_nav li a, .sub_nav li a{
 	cursor: pointer;
 	text-decoration: none;
 	color: black;
@@ -42,12 +42,23 @@ h1 {
 	float:left;
 }
 
+.sub_nav li{
+	float:left;
+}
+
 ul.top_nav{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
     border-style:double;
+}
+
+ul.sub_nav{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
 }
 
 .top_nav li a:hover {
