@@ -8,5 +8,6 @@ $(document).ready(function(){
 		c.preventDefault();
 		$('#dynamic2').load($(this).attr('href'));
 		$('.init').empty();
+		$('.main').css("display", "block");
 	});
 });

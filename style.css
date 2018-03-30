@@ -38,11 +38,7 @@ h1 {
 	padding: 14px 16px;
 }
 
-.top_nav li{
-	float:left;
-}
-
-.sub_nav li{
+.top_nav li, .sub_nav li{
 	float:left;
 }
 
