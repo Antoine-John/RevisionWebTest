@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('.nav').click(function(e){
 		e.preventDefault();
 		$('#dynamic').load($(this).attr('href'));
-		$(this).parent().css({'background-color': 'transparent', 'font-weight': 'normal'});
+		$('.nav').parent().css({'background-color': 'transparent', 'font-weight': 'normal'});
 		$(this).parent().css({'background-color': '#FFCCBC', 'font-weight': 'bold'});
 	});
 
